@@ -2,7 +2,7 @@
 Copyright (c) 2026 Harplume/BlueHarper
 ### LLM Tool-Calling Pipeline for Procedural World Generation in Roblox
 
-A real-time pipeline that translates eye tracking data into dynamic Roblox world generation commands using LLM tool-calling — watched by 3,000+ people on YouTube.
+A real-time pipeline that translates eye tracking data into dynamic Roblox world generation commands using LLM tool-calling watched by 3,000+ people on YouTube.
 
 ---
 
