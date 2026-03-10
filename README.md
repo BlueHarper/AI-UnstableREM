@@ -34,9 +34,9 @@ A real-time pipeline that translates eye tracking data into dynamic Roblox world
 
 ## ⚡ Key Features
 
-- **Pre-batching** — optimizes LLM API calls to reduce latency and improve generation responsiveness
-- **Tool-calling pipeline** — structured LLM outputs drive in-game world generation commands
-- **Real-time eye tracking** — gaze data feeds directly into the generation loop
+- **Pre-batching**: optimizes LLM API calls to reduce latency and improve generation responsiveness
+- **Tool-calling pipeline**: structured LLM outputs drive in-game world generation commands
+- **Real-time eye tracking**: gaze data feeds directly into the generation loop
 
 ---
 
@@ -49,7 +49,7 @@ A real-time pipeline that translates eye tracking data into dynamic Roblox world
    pip install -r requirements.txt
 ```
 
-3. **Add your API key** — create a `.env` file in the root:
+3. **Add your API key**: create a `.env` file in the root:
 ```
    OPENROUTER_API_KEY=your_key_here
 ```
@@ -59,7 +59,7 @@ A real-time pipeline that translates eye tracking data into dynamic Roblox world
    python faceServer.py
 ```
 
-> ⚠️ Windows only — `winsound` is used for audio feedback and is not supported on Mac/Linux.
+> ⚠️ Windows only: `winsound` is used for audio feedback and is not supported on Mac/Linux.
 > You may find an alternative OR completely remove winsound imports and winsound usages.
 
 5. **You may now open the main.rbxl file and run it. You must save this as a game and then enable HTTPservice in game settings. You cannot enable this service unless you save this as a game.**
@@ -70,7 +70,7 @@ A real-time pipeline that translates eye tracking data into dynamic Roblox world
 ---
 
 ## 📄 License
-MIT
+Apache 2.0
 
-- Attribution is required to Harplume
+- Attribution is required to Harplume/Blueharper, and haroharper on Roblox
 - Free to use
