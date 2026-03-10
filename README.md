@@ -25,7 +25,7 @@ A real-time pipeline that translates eye tracking data into dynamic Roblox world
 | Layer | Tool |
 |---|---|
 | Game Engine | Roblox Studio + LuaU |
-| Vision Model | AllenAI Molmo2 8B (via OpenRouter) |
+| Vision Model | Meta: Llama 3.2 3B Instruct (via OpenRouter) |
 | LLM Pipeline | OpenRouter API + Tool Calling + Pre-batching |
 | Graphics | GIMP |
 | Recording & Editing | OBS + CapCut |
