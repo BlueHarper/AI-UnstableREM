@@ -40,17 +40,32 @@ A real-time pipeline that translates eye tracking data into dynamic Roblox world
 
 ---
 
-## 🚀 Getting Started
+## 🔧 Setup
 
+1. **Clone the repo.** Make sure to open the cloned folder in your IDE.
+
+2. **Install dependencies**
 ```bash
-# Clone the repo
-git clone https://github.com/yourusername/UnstableREM.git
+   pip install -r requirements.txt
 ```
 
-1. Open the project in Roblox Studio
-2. Add your OpenRouter API key to the environment
-3. Run the eye tracking input script
-4. Hit Play in Roblox Studio and watch the world generate everytime you blink
+3. **Add your API key** — create a `.env` file in the root:
+```
+   OPENROUTER_API_KEY=your_key_here
+```
+
+4. **Run the Flask server**
+```bash
+   python faceServer.py
+```
+
+> ⚠️ Windows only — `winsound` is used for audio feedback and is not supported on Mac/Linux.
+> You may find an alternative OR completely remove winsound imports and winsound usages.
+
+5. **You may now open the main.rbxl file and run it. You must save this as a game and then enable HTTPservice in game settings. You cannot enable this service unless you save this as a game.**
+
+6. yayy congrats u got it working.
+**Now, run the roblox game and it should be working!**
 
 ---
 
